@@ -60,12 +60,9 @@ git cleanup fresh-start
 
 ### Linux
 
-Download the Linux distribution and rename it to git-cleanup and copy it where git is located
+Download Linux tar.gz from the [releases](https://github.com/paulsalmon-za/git-cleanup/releases)
 
-Rename to git-cleanup
-```bash
-mv git-cleanup-linux-amd64 git-cleanup
-```
+Untar and copy the git-cleanup to git executable's location
 
 To find where git is installed
 ```bash
@@ -84,13 +81,10 @@ chmod +x /usr/bin/git-cleanup
 
 ### Windows
 
-The current installation process is the same as for Linux
+Download Windows tar.gz from the [releases](https://github.com/paulsalmon-za/git-cleanup/releases)
 
-Download the executable for your pc's architecture 386 or amd64
-
-Rename the file to be git-cleanup
-
-Copy to your git folder 
+Unzip and copy the git-cleanup to git executable's location
+ 
 ```
 c:\Program Files\git\mingw64\bin
 ```
