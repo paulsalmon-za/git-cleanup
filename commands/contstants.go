@@ -1,0 +1,13 @@
+package commands
+
+// LOCAL ...
+const LOCAL = "local"
+
+// PROTECT ...
+const PROTECT = "protect"
+
+// UNPROTECT ...
+const UNPROTECT = "unprotect"
+
+// RESET ...
+const RESET = "fresh-start"
